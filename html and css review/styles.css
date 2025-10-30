@@ -1,0 +1,290 @@
+/* Global Styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FCFBF0;
+    color: #141b10;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav  {
+    margin: 20px;
+    padding: 0; 
+}
+
+nav li {
+    display: inline-block;
+   background-color: #141b10;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav li a {
+  
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #FCFBF0;
+}
+
+nav li:hover {
+background-color: #C2C198;
+}
+
+nav li:hover a {
+color: #141b10;
+}
+
+ul li {
+    text-decoration: none;
+}
+ul li b {
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+
+
+/* Mobile */
+@media (max-width: 600px) {
+    body img {
+        padding: 10px;
+        width: 100%;
+    }
+}
+
+header {
+padding: 20px;
+border-color: #C2C198;
+border-radius: 20px;
+border-style: solid;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    max-width: 140px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ns {
+    display: inline-block;
+}
+
+.ns img {
+    max-width: 140px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section {
+    margin: 20px;
+    display: block;
+}
+
+.people {
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.people li {
+    margin: 20px;
+    background-color: #141b10;
+    color: #FCFBF0;
+    border-radius: 50%;
+    width: 620px;
+    height: 320px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    text-align: center;
+}
+
+.people img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 6px 0 10px;
+}
+
+.cases li {
+    margin: 60px;
+    padding: 60px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #C2C198;
+}
+
+.space li {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h2 {
+    margin: 0 0 18px 0;
+    background-color: #141b10;
+    color: #FCFBF0;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#dm {
+    font-size: large;
+    border-style: solid;
+    border-color: #C2C198;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+}
+
+footer {
+    margin: 20px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px; 
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+footer button {
+    max-width: 50px;
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: transform 140ms ease, opacity 140ms ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+footer button img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 140ms ease;
+    transform-origin: center center;
+}
+
+footer button:hover img,
+footer button:focus img {
+    transform: scale(0.92);
+}
+
+footer button:active img {
+    transform: scale(0.88);
+}
+
+footer button:focus {
+    outline: 3px solid #C2C198;
+    outline-offset: 4px;
+}
+
+footer p {
+    margin: 10px;
+}
+
+/* Tablet */
+@media (min-width: 601px) {
+    body img {
+        padding: 10px;
+        width: 80%;
+    }
+
+header {
+    max-width: 600px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+nav {
+    padding: 0;
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav ul{
+    background-color: #141b10;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+nav ul li {
+    border-radius: 1px;
+    margin: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section {
+    padding: 0;
+    max-width: 500px;
+    display: inline-block;
+}
+
+h2 {
+    max-width: 500px;
+    display: inline-block;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#left {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    max-width: 50%;
+}
+
+#right {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    max-width: 45%;
+
+}
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+body {
+    background-color: #C2C198;
+  }
+#entire {
+    background-color: #FCFBF0;
+    max-width: 80%;
+    margin: 0 15% 0 15%;
+}
+
+.about {
+    padding: 0;
+    margin: 15px;
+    max-width: 45%;
+    display: inline-block;
+    align-content: top;
+}
+
+}
