@@ -3,15 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Visit Chattanooga</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <div class="container">
+
+<!-- Navbar Section -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-  <div class="container-fluid">
+  <div class="container-fluid mb-auto">
     <a class="navbar-brand" href="#"><img class="container-fluid p-2"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,23 +36,122 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="aquarium.html">TN State Aquarium</a></li>
-            <li><a class="dropdown-item" href="choo.html">Chattanooga Choo Choo</a></li>
-            <li><a class="dropdown-item" href="zoo.html">Chattanooga Zoo</a></li>
-            <li><a class="dropdown-item" href="museum.html">Childrens Museum</a></li>
+            <li><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="dropdown-item" href="museum.html">Chattanooga Zoo</button></li>
+            <li><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="dropdown-item" href="museum.html">Chattanooga Choo Choo</button></li>
+            <li><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="dropdown-item" href="museum.html">Childrens Museum</button></li>
           </ul>
         </li>
       </ul>
     </div>
   </div>
+
+<!-- Modal Section -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Uh-Oh!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Sorry, this page is currently undergoing maintenance. Please check back later!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
 </nav>
+
+<!-- Jumbotron Section -->
     <header>
         <div id="header_img" class="p-5 mb-4 rounded-3"> 
         <div class="container-fluid py-5"> 
-            <img class="container w-25" src="images/logo.png" alt="logo"> <br>
+            <img class="w-25" src="images/logo.png" alt="logo"> <br>
             <button class="btn btn-warning btn-lg mt-5" type="button">Learn More</button> 
         </div>
         </div>
     </header>
+
+<main>
+
+<!-- Cards Section -->
+    <div class="row col-9 d-flex justify-content-center m-auto">
+<div class="m-2 card text-bg-dark" style="width: 25rem;">
+    <h4 class="text-center pt-3">Choo-Choo</h4>
+  <img src="images/choochoo.png" class="card-img-top pt-3" alt="...">
+  <div class="card-body">
+    <p class="card-text">Hop aboard nostalgia at the Chattanooga Choo Choo, where historic rail charm meets modern fun. Explore unique shops, music, and dining—all in the heart of Chattanooga.</p>
+    <a href="#" class="btn btn-outline-warning">Learn More</a>
+  </div>
 </div>
+<div class="m-2 card text-bg-dark" style="width: 25rem;">
+    <h4 class="text-center pt-3">Chattanooga Whiskey</h4>
+  <img src="images/whiskey.png" class="card-img-top pt-3" alt="...">
+  <div class="card-body">
+    <p class="card-text">Raise a glass to Chattanooga Whiskey, where bold flavor and craft tradition come together. Tour, taste, and discover Tennessee’s award-winning hometown distillery.</p>
+    <a href="#" class="btn btn-outline-warning">Learn More</a>
+  </div>
+</div>
+<div class="m-2 card text-bg-dark" style="width: 25rem;">
+    <h4 class="text-center pt-3">Rock City</h4>
+  <img src="images/rock_city.png" class="card-img-top pt-3" alt="...">
+  <div class="card-body">
+    <p class="card-text">Discover breathtaking views and winding garden trails at Rock City, where nature and wonder meet atop Lookout Mountain. See seven states from one unforgettable spot.</p>
+    <a href="#" class="btn btn-outline-warning">Learn More</a>
+    </div>
+</div>
+    
+<div class="m-2 card text-bg-dark" style="width: 25rem;">
+    <h4 class="text-center pt-3">Coca-Cola</h4>
+  <img src="images/coca-cola.png" class="card-img-top pt-3" alt="...">
+  <div class="card-body">
+    <p class="card-text">Explore the story behind an American classic at the Coca-Cola Bottling Co. See how the iconic drink comes to life and enjoy a crisp, refreshing taste at the end.</p>
+    <a href="#" class="btn btn-outline-warning">Learn More</a>
+
+  </div>
+</div>
+</div>
+
+<!-- Carousel Section -->
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner my-5">
+    <div class="carousel-item active">
+      <img class="car_img w-100" src="images/screenshot1.png" class="d-block" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img class="car_img w-100" src="images/aquarium.png" class="d-block" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img class="car_img w-100" src="images/screenshot2.png" class="d-block" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <div class="row">
+        <div class="col-12 py-4 text-center">
+<i class="fa-brands fa-x-twitter fs-4"></i>
+<i class="fa-brands fa-tiktok fs-4"></i>
+<i class="fa-brands fa-facebook-f fs-4"></i>
+<i class="fa-brands fa-snapchat fs-4 mb-4"></i>
+<br>
+&copy; 2024 - Chattanooga TN
+        </div>
+    </div>
+</footer>
+
+  </div>
   </body>
 </html>

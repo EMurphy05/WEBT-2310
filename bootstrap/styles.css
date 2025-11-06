@@ -1,5 +1,9 @@
 #header_img {
-    background-image: url("images/jumbo.jpg");
+    background-image: url("../bootstrap/images/jumbo.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.car_img {
+    height: 50px;
 }
