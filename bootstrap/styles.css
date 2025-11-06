@@ -47,7 +47,7 @@
 }
 
 @media (min-width: 990px) {
-    #panel_bg {
+    .panel_bg {
     width: 50%;
 }
 }
