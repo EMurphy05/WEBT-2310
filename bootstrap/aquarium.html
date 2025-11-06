@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visit Chattanooga</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/bootstrap/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+
+<div class="container">
+<!-- Navbar Section -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid mb-auto">
+    <a class="navbar-brand" href="#"><img class="container-fluid p-2"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="history.html">History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Locations of Interest
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="aquarium.html">TN State Aquarium</a></li>
+            <li><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="dropdown-item" href="museum.html">Chattanooga Zoo</button></li>
+            <li><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="dropdown-item" href="museum.html">Chattanooga Choo Choo</button></li>
+            <li><button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="dropdown-item" href="museum.html">Childrens Museum</button></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<!-- Modal Section -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Uh-Oh!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Sorry, this page is currently undergoing maintenance. Please check back later!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+
+<!-- Jumbotron Section -->
+    <header>
+        <div id="aquarium_img" class="p-5 mb-4 rounded-0"> 
+        <div class="container-fluid py-5"> 
+            <img class="w-25" src="images/LogoWhite.png" alt="logo"> <br>
+            <button data-bs-toggle="tooltip" data-bs-title="This Doesn't Work Yet!" class="btn btn-warning btn-lg mt-5" type="button">Learn More</button> 
+        </div>
+        </div>
+    </header>
+
+<main>
+
+<!-- Card Section -->
+    <div class="row col-12 d-flex justify-content-center m-auto">
+
+<div id="main_card" class="m-5 col-6 card text-bg-dark" style="width: 300px;">
+    <h4 class="text-center pt-3">River Journey</h4>
+  <img src="images/river.png" class="card-img-top pt-3" alt="...">
+  <div class="card-body">
+    <p class="card-text">The River Journey building explores freshwater ecosystems, starting in the Appalachian Mountains and following waterways around the world. Visitors encounter river otters, turtles, fish, and other wildlife while learning how rivers shape the environment and support diverse life.</p>
+    <a href="#" class="btn btn-outline-warning">See Prices</a>
+  </div>
+</div>
+<div id="main_card" class="m-5 col-6 card text-bg-dark" style="width: 300px;">
+    <h4 class="text-center pt-3">Ocean Journey</h4>
+  <img src="images/ocean.png" class="card-img-top pt-3" alt="...">
+  <div class="card-body">
+    <p class="card-text">The Ocean Journey building focuses on saltwater habitats, from coral reefs to open seas. Guests can see sharks, jellyfish, penguins, and colorful reef fish while discovering how ocean environments connect to global ecosystems and daily life.</p>
+    <a href="#" class="btn btn-outline-warning">See Prices</a>
+  </div>
+</div>
+<div id="main_card" class="m-5 col-6 card text-bg-dark" style="width: 300px;">
+    <h4 class="text-center pt-3">IMAX</h4>
+  <img src="images/imax.png" class="card-img-top pt-3" alt="...">
+  <div class="card-body">
+    <p class="card-text">The IMAX Theater near the Tennessee Aquarium offers an immersive movie experience with a giant screen and powerful sound, showcasing educational films about nature, science, and exploration. It’s a great place to dive deeper into the themes of the aquarium and see stunning visuals up close.</p>
+    <a href="#" class="btn btn-outline-warning">See Prices</a>
+    </div>
+</div> 
+<div id="main_card" class="m-5 col-6 card text-bg-dark" style="width: 300px;">
+    <h4 class="text-center pt-3">Deeper Dives</h4>
+  <img src="images/dive.png" class="card-img-top pt-3" alt="...">
+  <div class="card-body">
+    <p class="card-text">The Tennessee Aquarium’s Deeper Dives tours offer a behind-the-scenes look at how the aquarium cares for its animals and habitats. Guided by expert staff, visitors can explore areas not normally open to the public, learn about conservation work, and get a closer understanding of what it takes to support aquatic life every day.</p>
+    <a href="#" class="btn btn-outline-warning">See Prices</a>
+</div>
+</div>
+</div>
+
+
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <div class="row">
+        <div class="col-12 py-4 text-center">
+<i class="fa-brands fa-x-twitter fs-4"></i>
+<i class="fa-brands fa-tiktok fs-4"></i>
+<i class="fa-brands fa-facebook-f fs-4"></i>
+<i class="fa-brands fa-snapchat fs-4 mb-4"></i>
+<br>
+&copy; 2024 - Chattanooga TN
+        </div>
+    </div>
+</footer>
+
+<!--Tooltip Script-->
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+</div>
+</html>

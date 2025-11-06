@@ -4,6 +4,50 @@
     background-position: center;
 }
 
-.car_img {
-    height: 50px;
+#market_img {
+    background-image: url("../bootstrap/images/market.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#sports_img {
+    background-image: url("../bootstrap/images/sports.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#concerts_img {
+    background-image: url("../bootstrap/images/concert.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#festivals_img {
+    background-image: url("../bootstrap/images/festival.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#aquarium_img {
+    background-image: url("../bootstrap/images/aquarium.webp");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#events_img {
+    background-image: url("../bootstrap/images/events.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#history_img {
+    background-image: url("../bootstrap/images/history.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+@media (min-width: 990px) {
+    #panel_bg {
+    width: 50%;
+}
 }
