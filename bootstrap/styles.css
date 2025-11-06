@@ -1,0 +1,5 @@
+#header_img {
+    background-image: url("images/jumbo.jpg");
+    background-size: cover;
+    background-position: center;
+}
