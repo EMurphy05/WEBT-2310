@@ -1,4 +1,5 @@
 # WEBT-2310 Elizabeth Murphy
 
 <a rel="index" href="html and css review/index.html">html and css review</a> <br>
-<a rel="index" href="bootstrap/index.html">Bootstrap</a>
+<a rel="index" href="bootstrap/index.html">Bootstrap</a> <br>
+<a rel="index" href="figma/index.html">Figma</a>

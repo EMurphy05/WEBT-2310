@@ -1,0 +1,70 @@
+#header_img {
+    background-image: url("../bootstrap/images/jumbo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#market_img {
+    background-image: url("../bootstrap/images/market.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#sports_img {
+    background-image: url("../bootstrap/images/sports.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#concerts_img {
+    background-image: url("../bootstrap/images/concert.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#festivals_img {
+    background-image: url("../bootstrap/images/festival.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#aquarium_img {
+    background-image: url("../bootstrap/images/aquarium.webp");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#events_img {
+    background-image: url("../bootstrap/images/events.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+#history_img {
+    background-image: url("../bootstrap/images/history.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+@media (min-width: 990px) {
+    .panel_bg {
+    width: 50%;
+}
+}
+
+.incard {
+    min-width: 200px !important;
+}
+
+@media (max-width: 576px) {
+.incard {
+    min-width: 260px !important;
+    width: 50%;
+}
+}
+
+@media (min-width: 992px) {
+.inimg {
+  max-width: 400px;
+}
+}
